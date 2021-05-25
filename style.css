@@ -1,0 +1,694 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #35424D;
+}
+/* HOMEPAGE*/
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 580px;
+    margin-right: -30px;
+    
+}
+
+header{
+    margin-top: 40px;
+    margin-left: 700px;
+    font-size: 50px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.hcoverimage{
+    height: 709px;
+    width: 709px;
+    margin-left: -18.36px;
+    border-style: solid;
+    border-color: #D4DA9B;
+    border-width: 3.5px;
+    margin-top: -120px;
+}
+
+.p1{
+    
+    text-align:justify;
+text-justify:inter-word;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 790px;
+    margin-top: -550px;
+    margin-right: 105px;
+    text-indent: 50px;
+}
+
+.motivation{
+    padding-right: 100px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+.Statement{
+    text-align:justify;
+    text-justify:inter-word;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 1403px;
+    height: 1614px;
+    background-color:#0E1B25;
+    
+   
+
+}
+
+.p2{
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-indent: 50px;
+}
+
+.p22{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-indent: 50px;
+}
+
+.p23{
+    padding-left: 950px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    text-indent: 50px;
+}
+.HP{
+    color: black;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 100px;
+    background-color:#073359;
+
+}
+/* icons at the bottom of the page*/
+
+.peimages{
+    background-color: #D4DA9B;
+    border-radius: 400px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 167px;
+    height: 266px;
+    width: 266px;
+}
+
+.peicons{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-left: -860px;
+}
+
+.dimages{
+    background-color: #D4DA9B;
+    border-style: solid;
+    border-color: white;
+    border-radius: 400px;
+    margin-top: -446px;
+    margin-bottom: 10px;
+    margin-left: 585px;
+    height: 266px;
+    width: 266px;
+}
+
+
+.dicons {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -336px;
+    margin-bottom: 10px;
+    margin-left: -30px;
+    text-align: center;
+    padding-top: 266px;
+}
+
+.mhimages{
+    background-color: #D4DA9B;
+    border-style: solid;
+    border-color: white;
+    border-radius: 400px;
+    margin-top: -420px;
+    margin-bottom: 40px;
+    margin-left: 997px;
+    height: 266px;
+    width: 266px;
+}
+
+.mhicons {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -347px;
+    margin-bottom: 40px;
+    margin-left: 805px;
+    text-align: center;
+    padding-top: 266px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 'Source Code, Pro';
+}
+
+/*History of Police*/
+h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.coverimage{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 514px;
+    width: 780.93px;
+}
+.p3{
+    text-indent: 50px;
+    padding: 25px;
+    text-align:justify;
+text-justify:inter-word;
+    margin-top: -8px;
+    color: white;
+
+}
+.hpast{
+    font-family:'Inconsolata', monospace;
+    width: 600px;
+    height: 515px;
+    margin-top: -513px;
+    margin-left: 821.38px;
+    margin-right: 20px;
+    background-color: #0E1B25;
+    text-align: center;
+}
+
+.hpresent {
+    font-family:'Inconsolata', monospace; 
+    width: 1400px;
+    height: 931px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #D8D8D8;
+}
+.policeheading1{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-left: -970px;
+}
+
+.container{
+    text-indent: 50px;
+    text-align:justify;
+    text-justify:inter-word;
+    padding: 60px;
+    background-color: #0E1B25;
+    width: 615px;
+    height: 900x;
+    margin-top: 30px;
+    margin-left: 700px;
+    color: white;
+
+
+}
+.pp1{
+    width: 545px;
+    height: 227px;
+    margin-top: -1420px;
+    margin-left: 120px;
+}
+
+.pp2{
+    width: 545px;
+    height: 300px;
+    margin-top: -950px;
+    margin-left: -550px;
+}
+
+.pp3{
+    width: 545px;
+    height: 200;
+    margin-top: -430px;
+    margin-left: -550px;
+}
+
+.hfuture {
+    width: 1400px;
+    height: 931px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #D4DA9B;
+    text-align: center;
+    
+}
+
+.policeheading2{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-left: -970px;
+
+}
+
+.policefuture1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.p5{
+    padding: 50px;
+    text-indent: 50px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family:'Inconsolata', monospace;
+    background-color: #0E1B25;
+    width: 647px;
+    height: 737px;
+    margin-top: -780px;
+    margin-left: 747px;
+    color: white;
+    
+    
+
+} 
+
+.p52{
+    padding: 50px;
+    text-indent: 50px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family:'Inconsolata', monospace;
+    background-color: #0E1B25;
+    width: 647px;
+    height: 737px;
+    margin-top: -752.5px;
+    margin-left: 47px;
+    color: white;
+
+
+}
+  
+
+/*PUBLC EDUCATION*/
+
+nav b {
+    color:black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 'Source Code, Pro';
+}
+
+.infrontblack{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 580px;
+    margin-right: -30px;
+    position: relative;
+}
+.pecoverimage{
+    width: 1440px;
+    height: 984px;
+    margin-top: -160px;
+    margin-bottom: 20px;
+    
+}
+
+.peheader{
+    margin-top: -1790px;
+    margin-left: 13px; ;
+    font-size: 50px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.eheading1{
+    margin-top: -1790px;
+    margin-left: 13px; ;
+    font-size: 40px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+
+.container4PBPA{
+    padding-top: 6em;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-indent: 50px;
+    text-align:justify;
+text-justify:inter-word;
+    background-color: #0E1B25;
+    width: 701.5px;
+    height: 933px;
+    margin-top: 30px;
+    color: white;
+
+   
+}
+
+.container4PBPR{
+    padding-top: 6em;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    text-indent: 50px;
+    text-align:justify;
+text-justify:inter-word;
+    background-color: #D8D8D8;
+    width: 701.5px;
+    height: 933px;
+    margin-top: -950px;
+    margin-left: 700px;
+    color:black;
+}
+
+.publiceducation1{
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-left: -700px;
+    margin-top: -950px;
+}
+
+.publiceducation2{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-top: -85px;
+    
+}
+.pefuture{
+    width: 1400px;
+    height: 931px;
+    margin-top: 863px;
+    margin-left: 3px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #D4DA9B;
+    text-align: center;
+}
+.peheading1{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-left: -20px;
+    margin-top: 10px;
+    
+
+}
+.pefuturewords{
+    text-indent: 100px;
+    padding: 50px;
+    text-align:justify;
+text-justify:inter-word;
+    font-family:'Inconsolata', monospace;
+    width: 1350px;
+    height: 431px;
+    margin-top: -853px;
+    margin-left: 30px;
+    color: white;
+    background-color: #0E1B25;
+}
+.students{
+    margin-top: 470px;
+    width: 446px;
+    height: 350px;
+}
+/*DRUG ADDICTION*/
+.infrontwhite{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
+    margin-left: 580px;
+    margin-right: -30px;
+    position: relative;
+}
+.netflix{
+    height: 1024px;
+    width: 1440px;
+    margin-top: -100px;
+    background-position: 100%
+;
+}
+
+.work{
+    height: 1024px;
+    width: 1440px;
+}
+#triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 990px solid#0E1B25;
+    border-right: 1440px solid transparent;
+    margin-top: -990px;
+    position: relative;
+
+  }
+
+.ptheading{
+    color: white;
+}
+
+.ptpast{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -1000px;
+}
+.transparent{
+    height: 400px;
+    width: 1900px;
+    margin-top: -2490px;
+    position: relative;
+}
+.bambi{
+    text-indent: 50px;
+    padding: 40px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family: 'Inconsolata', monospace;
+    background-color: #0E1B25;
+    width: 647px;
+    height: 737px;
+    margin-top: 10px;
+    margin-left: 47px;
+    color: white;
+}
+
+.ccomunity{
+    margin-top: -1180px;
+    margin-left: 745px;
+    width: 647px;
+    height: 400px
+}
+
+.banner{
+    margin-top: -410px;
+    margin-left: 745px;
+    width: 647px;
+    height: 300px
+
+}
+
+.containerhey{
+    text-indent: 50px;
+    padding: 30px;
+    text-align:justify;
+    text-justify:inter-word;
+    background-color: #0E1B25;
+    width: 615px;
+    height: 747px;
+    margin-top: 30px;
+    margin-left: 750px;
+    color: white;
+}
+.baekhyun{
+    text-indent: 70px;
+    padding: 40px;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family: 'Inconsolata', monospace;
+    width: 1250px;
+    height: 431px;
+    margin-top: -683px;
+    margin-left: -5px;
+    color: white;
+    border-style: solid;
+    background-color: #0E1B25;
+    border-color: white;
+    border-width: 3px;
+}
+
+.prisoners{
+    margin-top: -902px;
+    height: 747px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+/*MENTAL HEALTH*/
+.mheader{
+    font-size: 50px;
+    color:white;
+    margin-left: 15px;
+}
+.mentalhealth1{
+    margin-left: -1000px;
+    margin-top: -500px;
+    padding-bottom: 414px;
+}
+
+.mentalhealth2{
+    color: black;
+    margin-right: -100px;
+    margin-top: -500px;
+    padding-bottom: 450px;
+}
+.mhpast{
+    width: 1440px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: -20;
+    margin-right: -20px;
+    background-color: #0E1B25;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+
+}
+
+.mhwords{
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 100px;
+    padding-bottom: 216px;
+    padding-left: 216px;
+    padding-right: 216px;
+    
+
+}
+
+.kara{margin-top: 25px;
+margin-left: 600px;
+margin-bottom: 500px;
+    width: 500px;
+    height: 400px;
+}
+
+.mhpwords{
+    text-align:justify;
+text-justify:inter-word;
+    padding-top: 150px;
+    padding-left: 70px;
+    padding-right: 816px;
+    text-align:justify;
+text-justify:inter-word;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    width: 1400px;
+    height: 512px;
+    margin-top: 110px;
+    margin-left: 20px;
+    background-color:#0E1B25;
+
+
+}
+.rara{
+    height: 100px;
+}
+.mhfwords{
+    text-align:justify;
+text-justify:inter-word;
+    padding-top: 150px;
+    padding-left: 216px;
+    padding-right: 70px;
+    font-family: 'Inconsolata', monospace;
+    width: 1400px;
+    height: 512px;
+    margin-top: -20px;
+    margin-left: 20px;
+    background-color: #D8D8D8;
+   
+
+}
+
+.mhheaderfuture{
+    color: white;
+    margin-left: 100px;
+    margin-top: 500px;
+}
+.mhblm{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150px;
+    color: white;
+    width: 573px;
+    height: 973px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #0E1B25;
+    text-align: center;
+
+}
+
+.mhfuture{
+    text-indent: 50px;
+    padding: 50px;
+    text-align:justify;
+text-justify:inter-word;
+    font-family: 'Inconsolata', monospace;
+    width: 830px;
+    height: 973px;
+    margin-top: -989px;
+    margin-left: 592px;
+    background-color: #D4DA9B;
+
+
+}
+
+
+
+
+
