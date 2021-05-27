@@ -621,7 +621,7 @@ font-size: 50px;
 }
 
 .peheader{
-    margin-top: -1750px;
+    margin-top: -1150px;
     margin-left: 13px; ;
     font-size: 50px;
     color: black;
@@ -630,6 +630,7 @@ font-size: 50px;
     text-align: center;
     padding-bottom: 100px;
     position: relative;
+  
 
 
 }
@@ -1028,18 +1029,27 @@ text-justify:inter-word;
   .box {
     width: 40%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.2);
+  
     padding: 35px;
-    border: 2px solid #fff;
+   
     border-radius: 20px/50px;
     background-clip: padding-box;
     text-align: center;
   }
   .books{
-    font-family: 'Cinzel', serif;
-    font size: 30px;
+    margin-top: 5px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    background-color: #0c3358 ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 50px;
+    padding: 10px;
+
   }
   .button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1em;
     padding: 10px;
     color: #fff;
