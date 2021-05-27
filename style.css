@@ -6,17 +6,61 @@ body {
 }
 /* HOMEPAGE*/
 nav {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
     text-align: center;
     font-family: 'Inconsolata', monospace;
-    margin-left: 580px;
-    margin-right: -30px;
+    margin-left: 400px;
+    margin-right: -50px;
     
 }
 
+/* The navigation bar */
+ 
+.dropbtn {
+    background-color: #0c3358;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 10px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:#465c58}
+
 header{
-    margin-top: 40px;
+    margin-top: 150px;
     margin-left: 700px;
     font-size: 50px;
     color:white;
@@ -26,7 +70,7 @@ header{
 }
 
 .hcoverimage{
-    height: 709px;
+    height: 679px;
     width: 709px;
     margin-left: -18.36px;
     border-style: solid;
@@ -43,7 +87,7 @@ text-justify:inter-word;
     color: white;
     font-family: 'Inconsolata', monospace;
     margin-left: 790px;
-    margin-top: -550px;
+    margin-top: -520px;
     margin-right: 105px;
     text-indent: 50px;
 }
@@ -66,6 +110,8 @@ text-justify:inter-word;
     width: 1403px;
     height: 1614px;
     background-color:#0E1B25;
+    border-style: solid;
+    border-color: #0c3358 ;
     
    
 
@@ -98,11 +144,13 @@ text-justify:inter-word;
     text-indent: 50px;
 }
 .HP{
-    color: black;
-    text-align: center;
+    text-indent: -450px;
+    color: white;
     font-family: 'Inconsolata', monospace;
     margin-top: 100px;
-    background-color:#073359;
+    background-color: #0c3358;
+    width: 1400px;
+    height: 50px;
 
 }
 /* icons at the bottom of the page*/
@@ -112,7 +160,7 @@ text-justify:inter-word;
     border-radius: 400px;
     border-style: solid;
     border-color: white;
-    margin-top: 50px;
+    margin-top: 110px;
     margin-bottom: 10px;
     margin-left: 167px;
     height: 266px;
@@ -123,7 +171,9 @@ text-justify:inter-word;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    margin-left: -860px;
+    margin-left: -890px;
+    font-size: 20px;
+
 }
 
 .dimages{
@@ -143,9 +193,10 @@ text-justify:inter-word;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: -336px;
     margin-bottom: 10px;
-    margin-left: -30px;
+    margin-left: -50px;
     text-align: center;
     padding-top: 266px;
+    font-size: 20px;
 }
 
 .mhimages{
@@ -164,10 +215,13 @@ text-justify:inter-word;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: -347px;
     margin-bottom: 40px;
-    margin-left: 805px;
+    margin-left: 785px;
     text-align: center;
     padding-top: 266px;
+    font-size: 20px;
 }
+
+
 
 nav a {
     color:white;
@@ -178,8 +232,28 @@ nav a {
 }
 
 /*History of Police*/
+/* The navigation bar */
+.navbar {
+    overflow:visible;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    color:red;
+  }
 h1 {
-    margin-top: 40px;
+    margin-top: 120px;
     font-size: 50px;
     color:white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -212,60 +286,273 @@ text-justify:inter-word;
     background-color: #0E1B25;
     text-align: center;
 }
+* {box-sizing: border-box}
 
+/* Container needed to position the overlay. Adjust the width as needed */
+.containerone {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  margin-left: 23px;
+
+}
+
+/* Make the image to responsive */
+.imageone {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #D4DA9B;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.containerone:hover .overlay {
+  opacity: 1;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.containertwo {
+    position: relative;
+    width: 50%;
+    max-width: 300%;
+    margin-left: 390px;
+
+  }
+  
+  /* Make the image to responsive */
+  .imagetwo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -228px;
+    border-style: solid;
+    border-color: #D4DA9B;;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    height: 228px;
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containertwo:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Container needed to position the overlay. Adjust the width as needed */
+.containertwo {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .imagetwo {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    height: 228px;
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containertwo:hover .overlay {
+    opacity: 1;
+  }
+
+  /* Container needed to position the overlay. Adjust the width as needed */
+.containerthree {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 758px;
+   
+  }
+  
+  /* Make the image to responsive */
+  .imagethree {
+    display: block;
+    height: 228px;
+    width: 300px;
+    margin-top: -227px;
+    border-style: solid;
+  border-color: #D4DA9B;;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    height: 228px;
+    width: 300px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containerthree:hover .overlay {
+    opacity: 1;
+  }
+
+  
+/* Container needed to position the overlay. Adjust the width as needed */
+.containerun {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 1097px;
+  }
+  
+  /* Make the image to responsive */
+  .imageun {
+    display: block;
+    width: 300px;
+    height: 228px;
+    margin-top: -230px;
+    border-style: solid;
+    border-color: #D4DA9B;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containerun:hover .overlay {
+    opacity: 1;
+  }
+  
+  
 .hpresent {
     font-family:'Inconsolata', monospace; 
     width: 1400px;
-    height: 931px;
-    margin-top: 20px;
+    height: 768px;
+    margin-top: -90px;
     margin-left: 20px;
     background-color: #D8D8D8;
 }
 .policeheading1{
     color: black;
     font-family: 'Cinzel', serif;
-    margin-left: -970px;
+    margin-left: -250px;
+  padding-top: 10px;
+  font-size: 50px;
+  font-style:oblique;
 }
 
+
+.policeheading25{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-left: -1100px;
+margin-top: 100px;
+font-size: 50px;
+  font-style:oblique;
+
+}
 .container{
     text-indent: 50px;
     text-align:justify;
     text-justify:inter-word;
-    padding: 60px;
+    padding: 30px;
     background-color: #0E1B25;
     width: 615px;
-    height: 900x;
-    margin-top: 30px;
+    height: 600px;
+    margin-top: 20px;
     margin-left: 700px;
     color: white;
 
 
 }
-.pp1{
-    width: 545px;
-    height: 227px;
-    margin-top: -1420px;
-    margin-left: 120px;
-}
 
 .pp2{
-    width: 545px;
-    height: 300px;
-    margin-top: -950px;
-    margin-left: -550px;
+    width: 575px;
+    height: 330px;
+    margin-top: -1035px;
+    margin-left: 110px;
 }
 
 .pp3{
-    width: 545px;
-    height: 200;
-    margin-top: -430px;
-    margin-left: -550px;
+    width: 575px;
+    height: 250px;
+    margin-top: -420px;
+    margin-left: -580px;
 }
 
 .hfuture {
     width: 1400px;
-    height: 931px;
-    margin-top: 20px;
+    height: 768px;
+    margin-top: -155px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -277,7 +564,9 @@ text-justify:inter-word;
 .policeheading2{
     color: black;
     font-family: 'Cinzel', serif;
-    margin-left: -970px;
+    margin-left: -1030px;
+    padding-top: 10px;
+    font-style:oblique;
 
 }
 
@@ -291,16 +580,15 @@ text-justify:inter-word;
 }
 
 .p5{
-    padding: 50px;
-    text-indent: 50px;
+    padding-top: 30px;
     text-align:justify;
     text-justify:inter-word;
     font-family:'Inconsolata', monospace;
     background-color: #0E1B25;
-    width: 647px;
-    height: 737px;
-    margin-top: -780px;
-    margin-left: 747px;
+    width: 677px;
+    height: 574px;
+    margin-top: -590px;
+    margin-left: 737px;
     color: white;
     
     
@@ -308,42 +596,22 @@ text-justify:inter-word;
 } 
 
 .p52{
-    padding: 50px;
+    padding: 40px;
     text-indent: 50px;
     text-align:justify;
     text-justify:inter-word;
     font-family:'Inconsolata', monospace;
     background-color: #0E1B25;
-    width: 647px;
-    height: 737px;
-    margin-top: -752.5px;
-    margin-left: 47px;
+    width: 677px;
+    height: 574px;
+    margin-top: -630.5px;
+    margin-left: 27px;
     color: white;
 
 
 }
-  
 
 /*PUBLC EDUCATION*/
-
-nav b {
-    color:black;
-    text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
-    font: 'Source Code, Pro';
-}
-
-.infrontblack{
-    color: black;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
-    margin-left: 580px;
-    margin-right: -30px;
-    position: relative;
-}
 .pecoverimage{
     width: 1440px;
     height: 984px;
@@ -353,7 +621,7 @@ nav b {
 }
 
 .peheader{
-    margin-top: -1790px;
+    margin-top: -1750px;
     margin-left: 13px; ;
     font-size: 50px;
     color: black;
@@ -361,10 +629,12 @@ nav b {
     font-style: normal;
     text-align: center;
     padding-bottom: 100px;
+    position: relative;
+
 
 }
 
-.eheading1{
+.peheading1{
     margin-top: -1790px;
     margin-left: 13px; ;
     font-size: 40px;
@@ -373,37 +643,39 @@ nav b {
     font-style: normal;
     text-align: center;
     padding-bottom: 100px;
+    position: relative;
+
 
 }
 
 .container4PBPA{
     padding-top: 6em;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-indent: 50px;
     text-align:justify;
 text-justify:inter-word;
     background-color: #0E1B25;
     width: 701.5px;
-    height: 933px;
-    margin-top: 30px;
+    height: 778px;
+    margin-top: 100px;
     color: white;
 
    
 }
 
 .container4PBPR{
-    padding-top: 6em;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 50px;
     text-indent: 50px;
     text-align:justify;
 text-justify:inter-word;
     background-color: #D8D8D8;
     width: 701.5px;
-    height: 933px;
-    margin-top: -950px;
+    height: 728px;
+    margin-top: -750px;
     margin-left: 700px;
     color:black;
 }
@@ -412,31 +684,37 @@ text-justify:inter-word;
     color: white;
     font-family: 'Cinzel', serif;
     margin-left: -700px;
-    margin-top: -950px;
+    margin-top: -770px;
+    font-size: 50px;
+  font-style:oblique;
 }
 
 .publiceducation2{
     color: black;
     font-family: 'Cinzel', serif;
-    margin-top: -85px;
-    
+    margin-top: -75px;
+    font-size: 50px;
+  font-style:oblique;
 }
 .pefuture{
     width: 1400px;
     height: 931px;
-    margin-top: 863px;
+    margin-top: 715px;
     margin-left: 3px;
     margin-right: 20px;
     margin-bottom: 20px;
     background-color: #D4DA9B;
     text-align: center;
+    
 }
 .peheading1{
     color: black;
     font-family: 'Cinzel', serif;
-    margin-left: -20px;
-    margin-top: 10px;
-    
+    margin-left: -1100px;
+    margin-top: 20px;
+    font-size: 50px;
+    font-size: 50px;
+    font-style:oblique;
 
 }
 .pefuturewords{
@@ -453,53 +731,51 @@ text-justify:inter-word;
     background-color: #0E1B25;
 }
 .students{
-    margin-top: 470px;
+    margin-top: 400px;
     width: 446px;
     height: 350px;
+
 }
 /*DRUG ADDICTION*/
-.infrontwhite{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Inconsolata', monospace;
-    margin-left: 580px;
-    margin-right: -30px;
-    position: relative;
-}
+
 .netflix{
     height: 1024px;
     width: 1440px;
     margin-top: -100px;
-    background-position: 100%
-;
+    position:relative;
+
+
 }
 
-.work{
-    height: 1024px;
-    width: 1440px;
-}
 #triangle-bottomleft {
     width: 0;
     height: 0;
     border-bottom: 990px solid#0E1B25;
     border-right: 1440px solid transparent;
     margin-top: -990px;
-    position: relative;
+    position:absolute;
 
   }
 
 .ptheading{
     color: white;
+    margin-top: 70px;
 }
 
-.ptpast{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: -1000px;
+.policeheading100{
+    color: black;
+    font-family: 'Cinzel', serif;
+    margin-left: -190px;
+  padding-top: 10px;
+  font-size: 50px;
+  font-style:oblique;
+
 }
+
 .transparent{
     height: 400px;
     width: 1900px;
-    margin-top: -2490px;
+    margin-top: -2700px;
     position: relative;
 }
 .bambi{
@@ -511,7 +787,7 @@ text-justify:inter-word;
     background-color: #0E1B25;
     width: 647px;
     height: 737px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 47px;
     color: white;
 }
@@ -524,25 +800,36 @@ text-justify:inter-word;
 }
 
 .banner{
-    margin-top: -410px;
+    margin-top: -470px;
     margin-left: 745px;
     width: 647px;
     height: 300px
 
 }
 
+.hgetalife{
+    font-family:'Inconsolata', monospace; 
+    width: 1400px;
+    height: 768px;
+    margin-top: -200px;
+    margin-left: 20px;
+    background-color: #D8D8D8;
+    
+}
 .containerhey{
     text-indent: 50px;
-    padding: 30px;
+    padding: 15px;
     text-align:justify;
     text-justify:inter-word;
     background-color: #0E1B25;
     width: 615px;
-    height: 747px;
-    margin-top: 30px;
+    height: 647px;
+    margin-top: 20px;
     margin-left: 750px;
     color: white;
 }
+
+
 .baekhyun{
     text-indent: 70px;
     padding: 40px;
@@ -551,7 +838,7 @@ text-justify:inter-word;
     font-family: 'Inconsolata', monospace;
     width: 1250px;
     height: 431px;
-    margin-top: -683px;
+    margin-top: -583px;
     margin-left: -5px;
     color: white;
     border-style: solid;
@@ -561,8 +848,8 @@ text-justify:inter-word;
 }
 
 .prisoners{
-    margin-top: -902px;
-    height: 747px;
+    margin-top: -707px;
+    height: 647px;
     width: 700px;
     margin-left: 50px;
 }
@@ -572,18 +859,25 @@ text-justify:inter-word;
     font-size: 50px;
     color:white;
     margin-left: 15px;
+    margin-top: 130px;
 }
 .mentalhealth1{
-    margin-left: -1000px;
+    margin-left: -500px;
     margin-top: -500px;
     padding-bottom: 414px;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-style: oblique;
 }
 
 .mentalhealth2{
     color: black;
-    margin-right: -100px;
-    margin-top: -500px;
+    margin-left: -10px;
+    margin-top: -485px;
     padding-bottom: 450px;
+    font-family: 'Cinzel', serif;
+    font-size: 50px;
+    font-style: oblique;
 }
 .mhpast{
     width: 1440px;
@@ -611,11 +905,10 @@ text-justify:inter-word;
 
 }
 
-.kara{margin-top: 25px;
-margin-left: 600px;
-margin-bottom: 500px;
+.kara{margin-top: 80px;
+margin-left: 700px;
     width: 500px;
-    height: 400px;
+    height: 370px;
 }
 
 .mhpwords{
@@ -623,9 +916,8 @@ margin-bottom: 500px;
 text-justify:inter-word;
     padding-top: 150px;
     padding-left: 70px;
-    padding-right: 816px;
+    padding-right: 730px;
     text-align:justify;
-text-justify:inter-word;
     font-family: 'Inconsolata', monospace;
     color: white;
     width: 1400px;
@@ -642,9 +934,8 @@ text-justify:inter-word;
 .mhfwords{
     text-align:justify;
 text-justify:inter-word;
-    padding-top: 150px;
-    padding-left: 216px;
-    padding-right: 70px;
+    padding: 150px;
+   
     font-family: 'Inconsolata', monospace;
     width: 1400px;
     height: 512px;
@@ -662,11 +953,11 @@ text-justify:inter-word;
 }
 .mhblm{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 150px;
+    font-size: 130px;
     color: white;
     width: 573px;
-    height: 973px;
-    margin-top: 20px;
+    height: 768px;
+    margin-top: -30px;
     margin-left: 20px;
     background-color: #0E1B25;
     text-align: center;
@@ -675,19 +966,151 @@ text-justify:inter-word;
 
 .mhfuture{
     text-indent: 50px;
-    padding: 50px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align:justify;
-text-justify:inter-word;
     font-family: 'Inconsolata', monospace;
     width: 830px;
-    height: 973px;
-    margin-top: -989px;
+    height: 768px;
+    margin-top: -785px;
     margin-left: 592px;
     background-color: #D4DA9B;
+    font-size: 20px;
 
 
-}
-
+    }
+/* Container needed to position the overlay. Adjust the width as needed */
+.containerequal {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 23px;
+  }
+  
+  /* Make the image to responsive */
+  .imageequal {
+    display: block;
+    width: 580px;
+    height: 768px;
+    margin-top: -1255px;
+    border-style: solid;
+    border-color: #D4DA9B;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlayequal {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 573px;
+    height: 768px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 82px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .containerequal:hover .overlayequal {
+    opacity: 100;
+  }
+   
+  body {
+    font-family: 'Cinzel', serif;;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  .books{
+    font-family: 'Cinzel', serif;
+    font size: 30px;
+  }
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #0c3358 ;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background:#D4DA9B;
+  }
+  
+  .overlayiu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlayiu:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: red;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }  
+      
 
 
 
