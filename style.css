@@ -529,11 +529,11 @@ font-size: 50px;
     text-indent: 50px;
     text-align:justify;
     text-justify:inter-word;
-    padding: 30px;
+    padding: 20px;
     background-color: #0E1B25;
     width: 615px;
     height: 600px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 700px;
     color: white;
 
@@ -586,6 +586,8 @@ font-size: 50px;
 
 .p5{
     padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align:justify;
     text-justify:inter-word;
     font-family:'Inconsolata', monospace;
@@ -772,7 +774,7 @@ text-justify:inter-word;
 
 .bambi{
     text-indent: 50px;
-    padding: 40px;
+    padding: 30px;
     text-align:justify;
     text-justify:inter-word;
     font-family: 'Inconsolata', monospace;
@@ -824,7 +826,7 @@ text-justify:inter-word;
 
 .baekhyun{
     text-indent: 70px;
-    padding: 40px;
+    padding: 15px;
     text-align:justify;
     text-justify:inter-word;
     font-family: 'Inconsolata', monospace;
